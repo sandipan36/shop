@@ -1,0 +1,18 @@
+.Job_div{
+    display:flex;
+    /* background: #000; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1 1;
+    position:relative
+}
+.thank{
+    position: relative;
+}
+.Abimg{
+    width: 100%;
+    position: absolute;
+}
+body{
+    background:rgb(43, 43, 250);
+}
