@@ -1,0 +1,32 @@
+.np{
+    background: rgb(188, 188, 196);
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid blue;
+
+}
+.ap{
+    display: float;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.np:hover{
+    background: black;
+    color: aliceblue;
+    box-shadow: 20px 20px 20px rgb(81, 76, 76);
+    animation: nph 4s  alternate-reverse ease-in-out;
+}
+@keyframes nph {
+   
+    50%{
+        rotate: 360deg;
+    }
+    
+}
+.Crpic{
+    width: 100px;
+    height:100px;
+    margin-left: 40px;
+    border-radius: 50px;
+}

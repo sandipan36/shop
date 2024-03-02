@@ -1,0 +1,24 @@
+.nav-item{
+    color: red;
+}
+.navbar-brand{
+    color: blue;
+}
+.Link{
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 10px;
+    size: 20px;
+    color: rgb(63, 53, 53);
+    margin-top: 10px;
+}
+.Nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    justify-content: space-evenly;
+
+}
+.navbar-nav{
+    margin-left: 10px;
+}

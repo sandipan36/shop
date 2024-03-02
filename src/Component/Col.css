@@ -1,0 +1,53 @@
+.Plist{
+    /* background: #000; */
+    display:flex;
+    justify-content: space-between;
+    color: red;
+    animation: pani 10s ease-in-out;
+}
+@keyframes pani {
+    0%{
+       color: red;
+    }
+    50%{
+        color: black;
+    }
+    90%{
+        color: blue;
+    }
+}
+.Plist:hover{
+    color: black;
+    font-size: large;
+    text-transform: uppercase;
+}
+.cimg{
+    /* display: flex; */
+    flex: 1 1;
+    height: 200px;
+    width: 200px;
+}
+.pop{
+    display: flex;
+    flex-wrap: wrap;
+}
+.popList{
+    flex: 1 1;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+.popList:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.brand{
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    border: 1px dotted black;
+}
+.brand:hover{
+    font-size: 15px;
+    color: crimson;
+}
