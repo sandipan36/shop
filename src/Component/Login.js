@@ -42,7 +42,7 @@ function Login(){
             <input type='email' placeholder="Enter Your Gmail@" onChange={handelChange} required={true}/>
             <label className="logname">Ph No:</label>
             <input type="Number" placeholder="Enter your ph Number" onChange={handelChange}/>
-            <button type="submit">Login</button>
+            <button type="submit" onSubmit={reset}>Login</button>
             <button type="reset">reset</button>
            </form>
         </div>
